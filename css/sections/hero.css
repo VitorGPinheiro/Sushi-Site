@@ -34,7 +34,7 @@
     font-weight: 700;
     font-size: 120px;
     line-height: 138px;
-    color: fff;
+    color: #fff;
 }
 
 .hero-content {
@@ -61,7 +61,7 @@
 
 .hero-content-info p {
     margin:32px 0 0 32px;
-    font-family: var(--plus-jakarta-display);
+    font-family: var(--plus-jakarta-sans); 
     color: var(--secondary-color);
     font-size: 18px;
     font-weight: 400;
@@ -74,7 +74,7 @@
     gap: 36px;
 }
 
-.hero-content__order-buttton {
+.hero-content__order-button {
     padding: 20px;
     border-radius: 36px;
     min-width: 212px;
@@ -82,7 +82,7 @@
     border: none;
     background: var(--secondary-color);
     cursor: pointer;
-    color: fff;
+    color: #fff;
     font-weight: 500;
     font-size:18px;
     line-height: 23px;
@@ -97,7 +97,7 @@
     font-size: 16px;
     line-height: 19px;
     color: var(--black-200);
-    font-family: var(--plus-jakarta-display);
+    font-family: var(--plus-jakarta-sans);
     cursor: pointer;
 }
 
@@ -116,15 +116,20 @@
     background: var(--color-white);
 }
 
+.hero-content__customer {
+    flex: 1;
+    gap: 10px;
+}
+
 .hero-content__customer h4 {
-    font-size:62px;
+    font-size: 62px;
     font-weight: 400;
     font-family: var(--playfair-display);
 }
 
 
 .hero-content__customer p {
-    font-size:16px;
+    font-size: 16px;
     font-weight: 400;
     font-family: var(--plus-jakarta-sans);
     color: var(--secondary-color);
@@ -149,7 +154,7 @@
 }
 
 .hero-content__review p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     font-family: var(--plus-jakarta-sans);
@@ -157,3 +162,4 @@
     opacity: 0.8;
 }
  
+/* minuto 43:06 do video, corrigir bug facil, algumas personalizações de css do hero.css não estão entrando, provavelmente corrigir divs e classes.
